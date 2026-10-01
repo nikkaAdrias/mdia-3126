@@ -8,19 +8,40 @@
         <title>Button Component</title>
 
 
-    <style>
+   <style>
     html {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 35px;
+        font-family: sans-serif;
+        margin: 40px;
     }
 
-    /* base button/ "pill" component 
-    this is the base styles that all the buttons will have in common before adding modifiers*/
+    /* BUTTON COMPONENT */
     .c-button {
         border: 0;
         border-radius: 5px;
         padding: 10px 20px;
-        font-size: 12px;
+        font-size: 16px;
+    }
+
+    .c-button--primary {
+        background-color: hotpink;
+        color: white;
+        font-weight: bold;
+    }
+
+    .c-button--secondary {
+        background-color: palevioletred;
+        color: white;
+    }
+
+    .c-button--disabled {
+        background-color: lightgray;
+        color: white;
+    }
+
+    .c-button--outline {
+        background-color: pink;
+        color: white;
+        border: 1px solid palevioletred;
     }
 </style>
   </head>
@@ -38,6 +59,7 @@
             Secondary
         </button>
 
+        <!-- note: the disabled button would work because of "disabled" written AFTER the class name in quotations. that's the actual HTML attribute. has nothing to do with the styling/ modifiers.-->
         <h2>Disabled Button</h2>
         <button
             class="c-button c-button--disabled"
