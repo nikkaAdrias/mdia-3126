@@ -1,0 +1,13 @@
+html {
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   margin: 30px;
+}
+
+/* BUTTON COMPONENT */
+/* base styles that all buttons have in common */
+.c-button {
+   border: 0;
+   border-radius: 5px;
+   padding: 10px 20px;
+   font-size: 12px;
+}
