@@ -8,6 +8,38 @@ html {
 .c-button {
    border: 0;
    border-radius: 5px;
-   padding: 10px 20px;
-   font-size: 12px;
+   padding: 20px 20px;
+   font-size: 14px;
+   color: white;
+}
+
+/* Primary button styles */
+.c-button--primary {
+   background-color: black;
+   font-weight: bold;
+   display: block;
+   width: 90% ;
+}
+
+/* .c-banner {
+   background-color: lightgrey;
+   color: black;
+   padding: 20px;
+   border-radius: 5px;
+   margin-bottom: 20px;
+} */
+
+/* CARD COMPONENT */
+.card-container {
+   display: flex;
+   flex-direction: column;
+}
+
+.c-card {
+   border-radius: 10px;
+   padding: 10px 3dvb;
+   width: auto;
+   background-color: lightgray;
+   display: flex;
+   flex-direction: column;
 }
