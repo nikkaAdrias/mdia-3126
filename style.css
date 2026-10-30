@@ -64,3 +64,19 @@ html {
    margin-top: auto;
    align-self: center;
 }
+
+/* TEXT INPUT */
+input {
+   padding: 10px;
+   border: 1px solid black
+   border-radius: 10px;
+}
+
+
+/* INPUT AND SUBMIT BUTTON */
+.input-container {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-top: 10px;
+}
