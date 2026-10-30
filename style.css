@@ -43,3 +43,19 @@ html {
    display: flex;
    flex-direction: column;
 }
+
+/* FILTER BUTTONS */
+.c-button--filter {
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+   border-radius: 20px;
+}
+
+/* SELECTED FILTER BUTTON */
+.c-button--selected {
+   background-color: black;
+   color: white;
+   border-radius: 20px;
+}
+
